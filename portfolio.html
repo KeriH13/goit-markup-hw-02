@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,121 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
 <body>
+
     <header>
-    
-        <a class="logo" href="index.html"><strong>WebStudio</strong></a>
+
+        <a class="logo" href="index.html"><span class="web-item">Web</span><span class="studio-item">Studio</span></a>
     
         <nav>
             <ul class="navigation">
-                <li><a href="index.html">Agencja</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a class="sub-navigation" href="index.html">Agencja</a></li>
+                <li><a class="sub-navigation" href="portfolio.html">Portfolio</a></li>
+                <li><a class="sub-navigation" href="#">Kontakt</a></li>
             </ul>
         </nav>
-    
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
-    
+        <div class="contacts">
+            <a class="contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-item" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+
     </header>
 
+<!-- BUTTON GROUP -->
+<div>
+    <ul class="btn-group">
+        <li><a href="#"><button class="btn-item" type="button">Wszystkie</button></a></li>
+        <li><a href="#"><button class="btn-item" type="button">Strony</button></a></li>
+        <li><a href="#"><button class="btn-item" type="button">Aplikacje</button></a></li>
+        <li><a href="#"><button class="btn-item" type="button">Design</button></a></li>
+        <li><a href="#"><button class="btn-item" type="button">Marketing</button></a></li>
+    </ul>
+</div>
+
+<!-- PROJECTS/IMAGES -->
+<section>
+    <div>
+        <ul class="item-list">
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/comp.jpg" alt="laptop pokazuje trzy zdjęcia" width="370" height="294">
+                <h3 class="projects-title">Technocrack</h3>
+                <p class="projects-description">Strona internetowa</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/basketball.jpg" alt="dwóch zawodników gra w koszykówkę" width="370" height="294">
+                <h3 class="projects-title">Grafika New Orlean vs Golden Star</h3>
+                <p class="projects-description">Design</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/seafood.jpg" alt="logo ryby, restauracji z owocami morza " width="370" height="294">
+                <h3 class="projects-title">Restauracja Seafood</h3>
+                <p class="projects-description">Aplikacja</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/headphones.jpg" alt="słuchawki" width="370" height="294">
+                <h3 class="projects-title">Projekt Prime</h3>
+                <p class="projects-description">Marketing</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/boxes.jpg" alt="dwa pudełka" width="370" height="294">
+                <h3 class="projects-title">Project Boxes</h3>
+                <p class="projects-description">Aplikacja</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/imac.jpg" alt="imac" width="370" height="294">
+                <h3 class="projects-title">Inspiration has no Borders</h3>
+                <p class="projects-description">Strona internetowa</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/newspaper.jpg" alt="otwarte czasopismo" width="370" height="294">
+                <h3 class="projects-title">Magazyn Limited Edition</h3>
+                <p class="projects-description">Design</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/label.jpg" alt="etykieta" width="370" height="294">
+                <h3 class="projects-title">Project LAB</h3>
+                <p class="projects-description">Marketing</p>
+            </li>
+
+            <li class="image-list">
+                <img class="image-projects" src="images/projects/laptop.jpg" alt="rosnąca działalnoś gospodarcza" width="370" height="294">
+                <h3 class="projects-title">Growing Business</h3>
+                <p class="projects-description">Aplikacja</p>
+            </li>
+        </ul>
+    </div>
+</section>
 
 
 
 
+<footer class="bakground-color-footer">
+
+    <a class="logo" href="index.html"><span class="web-item">Web</span><span class="studio-item">Studio</span></a>
 
 
+    <address>
+        <ul class="adress">
+            <li><a class="adress-item map" href="https://goo.gl/maps/Lxkzra3BhB6dTE5c8" target="_blank">m. Warszawa,
+                    Aleje Jerozolimskie 21</a></li>
+            <li><a class="adress-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="adress-item" href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+    </address>
+
+</footer>
 
 
 </body>

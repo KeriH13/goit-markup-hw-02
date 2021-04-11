@@ -143,6 +143,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background: #2196f3;
+}
+.btn:active {
+  background-color: #cd329a;
 }
 /* === END NAGŁÓWEK === */
 
@@ -184,11 +192,11 @@ body {
 }
 /* === END SECOND TITLE(S) === */
 
-/* ===--- CZYM SIĘ ZAJMUJEMY (zdjęcia) /// ZESPÓŁ ---=== */
+/* ===--- CZYM SIĘ ZAJMUJEMY (zdjęcia) /// ZESPÓŁ /// PROJECT/IMAGES---=== */
 .item-list {
   list-style-type: none;
 }
-/* ===--- END CZYM SIĘ ZAJMUJEMY (zdjęcia) /// ZESPÓŁ ---=== */
+/* ===--- END CZYM SIĘ ZAJMUJEMY (zdjęcia) /// ZESPÓŁ /// PROJECT/IMAGES ---=== */
 
 /* === ZESPÓŁ ===*/
 .third-title {
@@ -215,3 +223,54 @@ body {
   background-color: #f5f4fa;
 }
 /* === END ZESPÓŁ ===*/
+
+/* === BUTTON GROUP === */
+.btn-group {
+  list-style-type: none;
+}
+.btn-item {
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn-item:hover,
+.btn-item:focus {
+  background-color: #2196f3;
+}
+.btn-item:active {
+  background-color: #cd329a;
+}
+/* === END BUTTON GROUP === */
+
+/* PROJECTS/IMAGES */
+.image-projects {
+  width: 370px;
+  height: 294px;
+}
+.projects-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.projects-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* END PROJECTS/IMAGES */
