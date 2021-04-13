@@ -1,3 +1,12 @@
+:root {
+  --main-font: font-family: 'Roboto', sans-serif;
+  --secondary-font: font-family: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+  /* ---dodatek--- */
+  --secondar-color: #cd329a;  
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
